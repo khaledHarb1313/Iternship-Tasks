@@ -1,0 +1,22 @@
+.Container {
+  margin: 5px 0px;
+  grid-template-columns: auto auto auto auto;
+  display: grid;
+  position: relative;
+  padding: 15px;
+  cursor: default;
+  touch-action: none;
+  background-color: #0f0f0f;
+  border-radius: 12px;
+  width: 500px;
+  height: 500px;
+}
+
+.Cell-Style {
+  width: 106.25px;
+  height: 106.25px;
+  margin-right: 25px;
+  margin-top: 5px;
+  border-radius: 25px;
+  background-color: rgb(15, 15, 15);
+}
